@@ -13,9 +13,9 @@ categories.workspace = true
 publish = false
 
 [dependencies]
-wasi-common = "2.0"
-wasi-cap-std-sync = "2.0"
-wiggle = { version = "2.0", default-features = false, features = ["wiggle_metadata"] }
+wasi-common = "26.0"
+wasi-cap-std-sync = "17.0"
+wiggle = { version = "26.0", default-features = false, features = ["wiggle_metadata"] }
 wasmi = { version = "0.31.1-soroban.20.0.1", path = "../wasmi", package = "soroban-wasmi" }
 
 [dev-dependencies]
